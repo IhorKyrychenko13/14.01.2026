@@ -125,12 +125,14 @@
   <ItemGroup>
     <ClCompile Include="14.01.2026.cpp" />
     <ClCompile Include="Book.cpp" />
+    <ClCompile Include="Catalogue.cpp" />
     <ClCompile Include="Edition.cpp" />
     <ClCompile Include="Magazine.cpp" />
     <ClCompile Include="TextBook.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Book.h" />
+    <ClInclude Include="Catalogue.h" />
     <ClInclude Include="Edition.h" />
     <ClInclude Include="Magazine.h" />
     <ClInclude Include="TextBook.h" />

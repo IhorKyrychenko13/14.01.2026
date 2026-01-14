@@ -13,7 +13,7 @@ protected:
 public:
     TextBook();
     TextBook(string title, string author, bool is_exist, int year,
-        string publisher, int grade);
+    string publisher, int grade);
     ~TextBook();
 
 
