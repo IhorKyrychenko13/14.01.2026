@@ -4,8 +4,8 @@ int main()
 {
 	Catalogue catalog;
 
-	catalog.addEddition(new Book("C++", "StrausTroop", true, 2000, "Ranok"));
-	catalog.addEddition(new Magazine("Nature", "World", true, 2026, 1));
-	catalog.addEddition(new TextBook("Math", "Noname", true, 2026, "Ranok", 11));
+	catalog.addEddition(shared_ptr<Edition>(new Book("C++", "StrausTroop", true, 2000, "Ranok")));
+	catalog.addEddition(shared_ptr<Edition>(new Magazine("Nature", "World", true, 2026, 1)));
+	catalog.addEddition(shared_ptr<Edition>(new TextBook("Math", "Noname", true, 2026, "Ranok", 11)));
 	catalog.showCatalogue();
 }

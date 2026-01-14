@@ -14,7 +14,7 @@ TextBook::TextBook(string title, string author, bool is_exist, int year, string 
 }
 
 TextBook::~TextBook() {
-    cout << "\nDeleted TextBook!\n";
+    cout << "Deleted TextBook.\n";
 }
 
 

@@ -13,7 +13,7 @@ Magazine::Magazine(string title, string author, bool isExist, int year, int numb
 
 Magazine::~Magazine()
 {
-    cout << "Delete magazine.\n";
+    cout << "Deleted Magazine.\n";
 }
 
 void Magazine::setNumber(int number)

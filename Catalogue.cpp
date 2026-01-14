@@ -10,7 +10,7 @@ Catalogue::~Catalogue()
 	//Збереження до файлу
 }
 
-void Catalogue::addEddition(Edition* obj)
+void Catalogue::addEddition(shared_ptr<Edition> obj)
 {
 	cat.insert(obj);
 }

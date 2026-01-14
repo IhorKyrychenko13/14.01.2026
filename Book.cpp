@@ -13,7 +13,7 @@ Book::Book(string title, string author, bool is_exist, int year, string publishe
 
 Book::~Book()
 {
-    cout << "Deletebook" << endl;
+    cout << "Deleted Book." << endl;
 }
 
 void Book::setPublisher(string publisher)
