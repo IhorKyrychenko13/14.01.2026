@@ -124,9 +124,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="14.01.2026.cpp" />
+    <ClCompile Include="Book.cpp" />
     <ClCompile Include="Edition.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Book.h" />
     <ClInclude Include="Edition.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
