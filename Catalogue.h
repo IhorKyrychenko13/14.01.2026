@@ -7,9 +7,19 @@
 #include "TextBook.h"
 using namespace std;
 
+struct CmpEdition {
+	bool operator()(const Edition* left, const Edition* right) const {
+		if (left->getYear() == right->getYear()) {
+			return left->getTitle() < right->getTitle();
+		}
+		return left->getYear() < right->getYear();
+	}
+};
+
 class Catalogue
 {
-	set<Edition*> cat;
+	set<Edition*, CmpEdition> cat;
+
 public:
 	Catalogue();
 	~Catalogue();
