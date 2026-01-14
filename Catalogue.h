@@ -27,5 +27,6 @@ public:
 
 	void addEddition(shared_ptr<Edition> obj);
 	void showCatalogue();
+	shared_ptr<Edition> operator[](string name) const;
 };
 

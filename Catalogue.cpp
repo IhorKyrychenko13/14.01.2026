@@ -22,3 +22,13 @@ void Catalogue::showCatalogue()
 		cout << endl;
 	}
 }
+
+shared_ptr<Edition> Catalogue::operator[](string name) const
+{
+	for (auto item : cat) {
+		if (item->getTitle() == name && item->getIsExist()) {
+			return item;
+		}
+	}
+	return nullptr;
+}
